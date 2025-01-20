@@ -93,3 +93,6 @@ class PrivateIngredientsApiTests(TestCase):
         
         self.assertEqual(res.status_code, status.HTTP_204_NO_CONTENT)
         self.assertEqual(Ingredient.objects.count(), 0)
+    
+    
+        
